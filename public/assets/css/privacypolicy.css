@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200&display=swap');
+/* GOOGLE FONTS */
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* outline: 1px solid firebrick; */
+}
+/* privacy policy */
+.privacy-policy {
+  margin-top: 100px;
+}
+
+.privacy-policy h1 {
+  color: #175738;
+}
+.privacy-policy h5{
+  color: #175738;
+}
+.privacy-policy p {
+  color: #7D7C7C;
+}
+/* end of privacy policy */
+

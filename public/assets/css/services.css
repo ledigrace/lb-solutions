@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200&display=swap');
+/* GOOGLE FONTS */
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+/* services page */
+
+.services-page {
+  background: #175738;
+  margin-top: 100px;
+  background-image: url(../images/services-banner.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: #023020;
+  padding: 50px;
+}
+
+
+.services-page h1 {
+  color: #c9a232;
+  font-weight: 100;
+}
+.services-page h4 {
+  color: #f5f5f7;
+}
+
+.services-page p {
+  color: #f5f5f7;
+  margin: 0;
+  text-align: justify center;
+  font-size: 14px;
+  font-weight: 100;
+}
+/* end of service page */
