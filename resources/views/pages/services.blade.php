@@ -71,7 +71,10 @@
         <div class="col-md-12 text-center"> 
           <h1 class="fw-bolder pb-5 fs-1">Empower Your Vision: Digital Solutions at Your Fingertips</h1>
           <h2 class="lh-base">"Discover a comprehensive suite of professional services tailored<br> to meet your business needs. From cutting-edge digital marketing strategies<br> and distinctive branding designs to <span class="GoldColor">,<b>advanced IT solutions<br> and insightful consultations,</b></span> we offer a holistic approach to <br>propel your business to new heights."</h2>
+
+          <button class="contactus-btn"> <a href="{{ url('/contact') }}">Contact us <i class="bi bi-arrow-right"></i></a></button>
         </div>
+        
       </div>
     </div>
   </section>

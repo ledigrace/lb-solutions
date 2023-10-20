@@ -45,6 +45,57 @@ body{
 }
 /* end of service page */
 
+.contactus-btn{
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #175738;
+  margin-top: 10px;
+  padding: 5px 15px;
+  border: solid #175738 2px;
+  box-shadow: none;
+  border-radius: 5px;
+  transition : 1000ms;
+  transform: translateY(0);
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.contactus-btn a{
+  text-decoration: none;
+  color: #c9a232;
+}
+.contactus-btn a:hover{
+  color: #175738;
+}
+.contactus-btn {
+  transform: translateX(0);
+  opacity: 1;
+  transition: 1s ease;
+  transition-property: transform, opacity;
+}
+
+.contactus-btn i{
+  font-size: 1.6em;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.contactus-btn:hover i{
+  transform: translateX(15px);
+  
+}
+.contactus-btn:hover{
+  transition : 1000ms;
+padding: 5px 20px;
+transform : translateY(-0px);
+background-color: #c9a232;
+color: #175738;
+border: solid 2px #c9a232;
+
+}
+
 .GoldColor{
   color: #c9a232;
 }
